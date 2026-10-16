@@ -1,0 +1,6 @@
+{
+  "name": "GramVoice TN - Rural Governance & Civic Engagement Platform",
+  "description": "Voice-first, bilingual (Tamil & English) end-to-end civic governance platform connecting rural Tamil Nadu citizens with Panchayat, Block, and District administrations.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

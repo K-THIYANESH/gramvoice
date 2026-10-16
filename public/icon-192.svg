@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="gold-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg-192)" />
+  <g transform="translate(40, 32) scale(0.37)">
+    <polygon points="100,50 200,50 215,80 85,80" fill="url(#gold-192)" />
+    <polygon points="80,85 220,85 235,125 65,125" fill="url(#gold-192)" />
+    <polygon points="60,130 240,130 255,175 45,175" fill="url(#gold-192)" />
+    <path d="M 40,180 L 260,180 L 265,240 L 210,240 L 210,210 Q 150,190 90,210 L 90,240 L 35,240 Z" fill="url(#gold-192)" />
+    <!-- Mic -->
+    <g transform="translate(150, 220)">
+      <rect x="-16" y="-30" width="32" height="60" rx="16" fill="#ffffff" />
+      <path d="M -28, -5 C -28, 25 28, 25 28, -5" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+      <line x1="0" y1="25" x2="0" y2="45" stroke="#ffffff" stroke-width="6" />
+    </g>
+  </g>
+  <text x="96" y="160" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#ffffff" text-anchor="middle" letter-spacing="1">GRAMVOICE</text>
+</svg>

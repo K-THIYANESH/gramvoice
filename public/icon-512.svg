@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="gold-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg-512)" />
+
+  <g transform="translate(106, 90)">
+    <path d="M 150,15 L 146,38 L 154,38 Z" fill="url(#gold-512)" />
+    <path d="M 115,30 L 112,48 L 118,48 Z" fill="url(#gold-512)" />
+    <path d="M 185,30 L 182,48 L 188,48 Z" fill="url(#gold-512)" />
+
+    <polygon points="100,50 200,50 215,80 85,80" fill="url(#gold-512)" />
+    <polygon points="80,85 220,85 235,125 65,125" fill="url(#gold-512)" />
+    <polygon points="60,130 240,130 255,175 45,175" fill="url(#gold-512)" />
+    
+    <path d="M 40,180 L 260,180 L 265,240 L 210,240 L 210,210 Q 150,190 90,210 L 90,240 L 35,240 Z" fill="url(#gold-512)" />
+
+    <g transform="translate(150, 230)">
+      <rect x="-16" y="-30" width="32" height="60" rx="16" fill="#ffffff" stroke="#047857" stroke-width="4" />
+      <path d="M -28, -5 C -28, 25 28, 25 28, -5" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+      <line x1="0" y1="25" x2="0" y2="45" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+      <line x1="-18" y1="45" x2="18" y2="45" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+
+      <path d="M -45, -20 A 45 45 0 0 0 -45 20" fill="none" stroke="#86efac" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+      <path d="M 45, -20 A 45 45 0 0 1 45 20" fill="none" stroke="#86efac" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+    </g>
+  </g>
+
+  <text x="256" y="420" font-family="system-ui, sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">GRAMVOICE</text>
+  <text x="256" y="456" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#86efac" text-anchor="middle" letter-spacing="1">கிராமக்குரல் • TN</text>
+</svg>
